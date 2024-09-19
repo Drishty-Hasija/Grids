@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.item-1{
+    background-color: hwb(0 35% 7%);
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.item-2{
+    background-color: hwb(252 48% 4%);
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.item-3{
+    background-color: hwb(44 24% 20%);
+    grid-row: span 1;
+    grid-column: span 1;
+}
+
+.item-4{
+    background-color: hwb(116 46% 18%);
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.item-5{
+    background-color: hwb(259 16% 29%);
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.item-6{
+    background-color: hwb(314 23% 11%);
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+
+.item-7{
+    background-color: hwb(49 7% 8%);
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+.item-8{
+    background-color: hwb(120 70% 25%);
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.item-9{
+    background-color: hwb(120 35% 64%);
+    grid-row: span 1;
+    grid-column: span 1;
+}
