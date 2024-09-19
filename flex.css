@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 100vw;
+    height: 100vh; 
+}
+
+/* Individual Items */
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 247, 247);
+    font-size: 2rem;
+}
+
+/* Item 1 */
+.item-1 {
+    background-color: hwb(0 35% 7%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3 * 2);
+}
+
+/* Item 2 */
+.item-2 {
+    background-color: hwb(252 48% 4%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3); 
+}
+
+/* Item 3 */
+.item-3 {
+    background-color: hwb(44 24% 20%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3); 
+}
+
+/* Item 4 */
+.item-4 {
+    background-color: hwb(116 46% 18%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3 * 2); 
+}
+
+/* Item 5 */
+.item-5 {
+    background-color: hwb(259 16% 29%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3);
+}
+
+/* Item 6 */
+.item-6 {
+    background-color: hwb(314 23% 11%);
+    flex-basis: 50%; 
+    height: calc(100vh / 3 * 2); 
+}
+/* Item 7 */
+.item-7 {
+    background-color: hwb(49 7% 8%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3 * 2);
+}
+
+/* Item 8 */
+.item-8 {
+    background-color: hwb(120 70% 25%);
+    flex-basis: 50%; 
+    height: calc(100vh / 3*1);
+}
+
+/* Item 9 */
+.item-9 {
+    background-color: hwb(120 35% 64%);
+    flex-basis: 25%; 
+    height: calc(100vh / 3*1); 
+    
+}
