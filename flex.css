@@ -1,72 +1,78 @@
-*{
-    font-size: 30px;
-    margin: 40px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.parent-1{
-   display: flex;
-   flex-wrap: wrap;
-   align-items: center;
+
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
 }
-.child-1{
-    border: 4px solid gray;
-    padding: 100px;
-   border-radius: 40px;
-   flex-basis: 32%;
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 90vh;
+    gap: 10px;
 }
-.child-2{
-    border: 4px solid gray;
-    padding: 100px;
-    border-radius: 40px;
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9f4bf4;
+    border: 2px solid #ddd;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+
+.a {
     flex-basis: 15%;
-
+    height: 45%;
+    align-self: flex-end;
 }
-.child-3{
-    border: 4px solid gray;
-    padding: 100px;
-   border-radius: 40px;
-   flex-basis: 15%;
 
+.b, .c {
+    flex-basis: 30%;
+    height: 45%;
+    align-self: flex-end;
 }
-.child-4{
-    border: 4px solid gray;
-    padding: 100px;
-    border-radius: 40px;
-    flex-basis: 32%;
 
+.d {
+    flex-basis: 15%;
+    height: 45%;
 }
-.child-5{
-    border: 4px solid gray;
-    padding: 100px;
-    border-radius: 40px;
-    flex-basis: 32%;
 
+.e {
+    flex-basis: 15%;
+    height: 50%;
+    align-self: flex-end;
 }
-.child-6{
-    border: 4px solid gray;
-    padding: 100px;
-    border-radius: 40px;
-    flex-basis: 32%;
 
+.f {
+    flex-basis: 60%;
+    height: 50%;
 }
-.child-7{
-    border: 4px solid gray;
-    padding: 100px;
-    border-radius: 40px;
-    flex-basis: 31%;
 
+.g {
+    flex-basis: 15.2%;
+    height: 50%;
 }
-.child-8{
-    border: 4px solid gray;
-    padding: 100px;
-   border-radius: 40px;
-   flex-basis: 48%;
 
+.h {
+    flex-basis: 15%;
+    height: 30%;
 }
-.child-9{
-    border: 4px solid gray;
-    padding: 100px;
-   border-radius: 40px;
-   flex-basis: 17%;
 
+.i {
+    flex-basis: 75.4%;
+    height: 30%;
 }
