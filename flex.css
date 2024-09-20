@@ -38,41 +38,49 @@ body {
     flex-basis: 15%;
     height: 45%;
     align-self: flex-end;
+    border-radius: 40px;
 }
 
 .b, .c {
     flex-basis: 30%;
     height: 45%;
     align-self: flex-end;
+    border-radius: 40px;
 }
 
 .d {
     flex-basis: 15%;
     height: 45%;
+    border-radius: 40px;
 }
 
 .e {
     flex-basis: 15%;
     height: 50%;
     align-self: flex-end;
+    border-radius: 40px;
 }
 
 .f {
     flex-basis: 60%;
     height: 50%;
+    border-radius: 40px;
 }
 
 .g {
     flex-basis: 15.2%;
     height: 50%;
+    border-radius: 40px;
 }
 
 .h {
     flex-basis: 15%;
     height: 30%;
+    border-radius: 40px;
 }
 
 .i {
-    flex-basis: 75.4%;
+    flex-basis: 75.2%;
     height: 30%;
+    border-radius: 40px;
 }
