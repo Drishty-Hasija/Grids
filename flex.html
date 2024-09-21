@@ -2,21 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Flexbox</title>
+    <meta name="viewport" content="width=device-width">
+    <title>Grids</title>
     <link rel="stylesheet" href="flex.css">
 </head>
-<body>
-    <div class="container">
-        <div class="item a">1</div>
-        <div class="item b">2</div>
-        <div class="item c">3</div>
-        <div class="item d">4</div>
-        <div class="item e">5</div>
-        <div class="item f">6</div>
-        <div class="item g">7</div>
-        <div class="item h">8</div>
-        <div class="item i">9</div>
-    </div>
+<body style="background-color: rgb(0, 0, 0);">
+    <div class="container flex">
+            <div class="flex-column gap-4">
+               <div class="flex gap-4">
+                <div class="flex-column gap-4 flex-grow-1">
+                              <div class="obj box-1 flex-grow-1">Box 1</div>
+                              <div class="obj box-2 flex-grow-1">Box 2</div>
+        </div>
+                <div class="flex-column gap-4 flex-grow-1">
+                    <div class="flex gap-4">
+                              <div class="obj box-3 flex-grow-1">Box 3</div>
+                              <div class="obj box-4 flex-grow-1">Box 4</div>
+        </div>
+                              <div class="obj box-5 flex-grow-3">Box 5</div>
+        </div>
+        </div>
+            <div class="flex gap-4">
+                              <div class="obj box-6 flex-grow-5">Box 6</div>
+                              <div class="obj box-7 flex-grow-3">Box 7</div>
+        </div>
+        </div>
+            <div class="flex-column gap-4">
+                              <div class="obj box-8 flex-grow-1">Box 8</div>
+                              <div class="obj box-9 flex-grow-2">Box 9</div>
+        </div>
+        </div>
 </body>
 </html>
