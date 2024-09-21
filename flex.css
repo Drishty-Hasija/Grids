@@ -1,86 +1,108 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
-
+    padding: 1rem;
+    
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    width: 90vw;
-    height: 90vh;
-    gap: 10px;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
 }
 
-.item {
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.obj {
+    border-radius: 10px;
+    border: 1px solid rgb(71, 24, 2); 
+    box-shadow: 0px 0px 10px white;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9f4bf4;
-    border: 2px solid #ddd;
-    font-size: 1.5rem;
-    color: black;
-    text-align: center;
+    padding: 25px; 
+    
 }
 
-
-.a {
-    flex-basis: 15%;
-    height: 45%;
-    align-self: flex-end;
-    border-radius: 40px;
+.box-1 {
+    background-color: #7d2c03; 
+    height: 200px; 
+    width: 50vb;
 }
 
-.b, .c {
-    flex-basis: 30%;
-    height: 45%;
-    align-self: flex-end;
-    border-radius: 40px;
+.box-2 {
+    background-color: #7d2c03; 
+    height: 170px;
+    width: 50vb;
 }
 
-.d {
-    flex-basis: 15%;
-    height: 45%;
-    border-radius: 40px;
+.box-3 {
+    background-color: #7d2c03; 
+    height: 100px;
+    width: 25vb;
 }
 
-.e {
-    flex-basis: 15%;
-    height: 50%;
-    align-self: flex-end;
-    border-radius: 40px;
+.box-4 {
+    background-color: #7d2c03; 
+    height: 100px;
+    width: 25vb;
 }
 
-.f {
-    flex-basis: 60%;
-    height: 50%;
-    border-radius: 40px;
+.box-5 {
+    background-color: #7d2c03; 
+    height: 200px; 
+  
 }
 
-.g {
-    flex-basis: 15.2%;
-    height: 50%;
-    border-radius: 40px;
+.box-6 {
+    background-color: #7d2c03; 
+    height: 150px;
 }
 
-.h {
-    flex-basis: 15%;
-    height: 30%;
-    border-radius: 40px;
+.box-7 {
+    background-color: #7d2c03; 
 }
 
-.i {
-    flex-basis: 75.2%;
-    height: 30%;
-    border-radius: 40px;
+.box-8 {
+    background-color: #7d2c03; 
+    height: 250px; 
+    width: 50vb;
+}
+
+.box-9 {
+    background-color: #7d2c03; 
+    height: 250px; 
+    width: 50vb; 
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+}
+
+.flex-grow-3 {
+    flex-grow: 3;
+}
+
+.flex-grow-5 {
+    flex-grow: 5;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
 }
